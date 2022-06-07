@@ -20,3 +20,11 @@ a{
     text-transform: uppercase;
     width: 200px;
 }
+
+a span{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
