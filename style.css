@@ -19,6 +19,7 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     width: 200px;
+    overflow: hidden;
 }
 
 a span{
@@ -32,7 +33,7 @@ a span{
 a .liquid{
     position: absolute;
     left: 0;
-    top: 0;
+    top: -80px;
     width: 200px;
     height: 200px;
     background: #fc0b5f;
@@ -60,5 +61,17 @@ a .liquid::after{
     border-radius: 40%;
     background: rgba(20, 20, 20, 0.5);
     animation: animate 10s linear infinite;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -75%) rotate(0deg);
+
+    }
+    100%{
+        transform: translate(-50%, -75%) rotate(360deg);
+
+    }
 
 }
