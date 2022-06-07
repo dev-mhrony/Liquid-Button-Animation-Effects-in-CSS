@@ -41,6 +41,12 @@ a .liquid{
     transition: 0.5s;
 }
 
+a:hover .liquid{
+    top: -120px;
+    
+}
+
+
 a .liquid::before,
 a .liquid::after{
     content: '';
